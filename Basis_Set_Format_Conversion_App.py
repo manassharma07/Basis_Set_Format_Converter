@@ -4,7 +4,7 @@ import os
 # Set page config
 st.set_page_config(page_title='Basis Set Converter', layout='wide', page_icon="🧊",
 menu_items={
-         'About': "# This online tool allows you to enter a basis set in the form of text input for a variety of Quantum Chemistry softwares, and convert it to another format."
+         'About': "# This online tool allows you to enter a basis set (and ECPs) in the form of text input for a variety of Quantum Chemistry softwares, and convert it to another format."
      })
 
 # Sidebar stuff
@@ -54,7 +54,7 @@ col1, col2 = st.columns(2)
 col1.write('## INPUT')
 input_format = col1.selectbox('Select the input basis set format',
      ( 'turbomole', 'crystal', 'gaussian94', 'nwchem', 'dalton','molcas','cfour','genbas','gbasis','demon2k','ricdlib'))
-input_basis_str = col1.text_area(label='Enter your own Basis Set here', value = placeholder_basis_str, placeholder = placeholder_basis_str, height=400)
+input_basis_str = col1.text_area(label='Enter your own Basis Set here', value = placeholder_basis_str, placeholder = 'Put your text here', height=400)
 # Get rid of empty lines
 input_basis_str = os.linesep.join([s for s in input_basis_str.splitlines() if s])
 
