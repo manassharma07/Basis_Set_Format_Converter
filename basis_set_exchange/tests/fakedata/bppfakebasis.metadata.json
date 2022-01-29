@@ -1,0 +1,14 @@
+{
+  "molssi_bse_schema": {
+    "schema_type": "metadata",
+    "schema_version": "0.1"
+  },
+  "names": ["bppfakebasis"],
+  "tags": [],
+  "family": "bppfake",
+  "description": "A fake basis set for testing the BSE",
+  "role": "orbital",
+  "auxiliaries": {
+    "jkfit": "bppfakebasis-jkfit"
+  }
+}

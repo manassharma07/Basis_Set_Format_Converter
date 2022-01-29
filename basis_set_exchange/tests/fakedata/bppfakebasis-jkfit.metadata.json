@@ -1,0 +1,12 @@
+{
+  "molssi_bse_schema": {
+    "schema_type": "metadata",
+    "schema_version": "0.1"
+  },
+  "names": ["bppfakebasis-jkfit"],
+  "tags": [],
+  "family": "bppfake",
+  "description": "A fake jkfit basis set for testing the BSE",
+  "role": "jkfit",
+  "auxiliaries": {}
+}

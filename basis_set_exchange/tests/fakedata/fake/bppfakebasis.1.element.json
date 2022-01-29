@@ -1,0 +1,15 @@
+{
+  "molssi_bse_schema": {
+    "schema_type": "element",
+    "schema_version": "0.1"
+  },
+  "name": "bppfakebasis",
+  "description": "A fake basis set for testing the BSE",
+  "elements": {
+    "1": {
+      "components": [
+        "fake/bppfakebasis_fakeref2019a.1.json"
+      ]
+    }
+  }
+}
