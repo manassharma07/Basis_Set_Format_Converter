@@ -9,7 +9,7 @@ menu_items={
 
 # Sidebar stuff
 st.sidebar.write('# About')
-st.sidebar.write('### Made By Manas Sharma')
+st.sidebar.write('### Made By [Manas Sharma](http://manas.bragitoff.com/)')
 st.sidebar.write('### *Powered by [Basis Set Exchange](https://github.com/MolSSI-BSE/basis_set_exchange)*')
 st.sidebar.write('Basis Set Exchange (BSE) is a repository for quantum chemistry basis sets, which also provides a flexible and powerful API to facilitate reading/writing or converting basis sets.')
 st.sidebar.write('[API Documentation for BSE](https://molssi-bse.github.io/basis_set_exchange/index.html)')
