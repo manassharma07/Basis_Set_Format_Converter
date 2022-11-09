@@ -10,6 +10,8 @@ menu_items={
 # Sidebar stuff
 st.sidebar.write('# About')
 st.sidebar.write('### Made By [Manas Sharma](http://manas.bragitoff.com/)')
+st.sidebar.write('### in the group of [Prof. Dr. Marek Sierka](https://www.cmsg.uni-jena.de/)')
+st.sidebar.write('### for the [TURBOMOLE](https://www.turbomole.org/) program package')
 st.sidebar.write('### *Powered by [Basis Set Exchange](https://github.com/MolSSI-BSE/basis_set_exchange)*')
 st.sidebar.write('Basis Set Exchange (BSE) is a repository for quantum chemistry basis sets, which also provides a flexible and powerful API to facilitate reading/writing or converting basis sets.')
 st.sidebar.write('[API Documentation for BSE](https://molssi-bse.github.io/basis_set_exchange/index.html)')
