@@ -74,7 +74,7 @@ output_basis_str = bse.writers.write.write_formatted_basis_str(basis_dict_bse, f
 col2.text_area(label='Converted basis set in the format selected by you',value=output_basis_str, height=400)
 
 st.write('## YouTube Tutorial')
-_, container, _ = st.columns([10, 300, 10])
+_, container, _ = st.columns([100, 300, 100])
 container.video('https://www.youtube.com/watch?v=C_9zUPz32X8')
 
 st.write('## Basis Set Exchange JSON Format')
