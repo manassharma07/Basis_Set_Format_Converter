@@ -55,7 +55,7 @@ $end
 col1, col2 = st.columns(2)
 col1.write('## INPUT')
 input_format = col1.selectbox('Select the input basis set format',
-     ( 'turbomole', 'crystal', 'gaussian94', 'nwchem', 'dalton','molcas','cfour','genbas','gbasis','demon2k','ricdlib'))
+     ( 'turbomole', 'crystal', 'gaussian94', 'nwchem', 'dalton','molcas','cfour','genbas','gbasis','demon2k','ricdlib', 'cp2k'))
 input_basis_str = col1.text_area(label='Enter your own Basis Set here', value = placeholder_basis_str, placeholder = 'Put your text here', height=400)
 # Get rid of empty lines
 input_basis_str = os.linesep.join([s for s in input_basis_str.splitlines() if s])
